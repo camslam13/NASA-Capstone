@@ -15,23 +15,24 @@ You will need the following things:
 * jupyter(in the extensions within vscode)
 
   ## How to use
-  If you are using conda you'll want to create an env. You can do this by
+  * If you are using conda you'll want to create an env. You can do this by
 
   conda create --name <environment_name> python=<python_version>
 
-  You can activate the env by typing "conda activate nameOfEnv.
+  * You can activate the env by typing "conda activate nameOfEnv.
 
-  Then you will want to select a python interpreter within vscode can do ctrl+shift+p.
+  * Then you will want to select a python interpreter within vscode can do ctrl+shift+p.(if you created an env it should pop up there)
 
-  Within the JupyterNotbook you'll want to select the kernel as the one you created.
+  * Within the JupyterNotbook you'll want to select the kernel as the one you created.
 
-  The two ipynb files are the actual code of the model and the tester.
+  * The two ipynb files are the actual code of the model and the tester.
 
-  The trainModel is where we load our datasets into the model to train it on what is a 
+  * The trainModel is where we load our datasets into the model to train it on what is a 
   rock vs sand. 
 
-  The testModel is where you can test an image to see if it comes back as rock or sand.    Just update the path to image under the load a test image method. 
+  * The testModel is where you can test an image to see if it comes back as rock or 
+    sand. Just update the path to image under the load a test image method. 
 
-  myModel.h5 is the actual trained model after you run trainModel there is a save   
-  statement that saves it as a certain name. 
+  *  myModel.h5 is the actual trained model after you run trainModel there is a save   
+     statement that saves it as a certain name. 
   
