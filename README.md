@@ -33,6 +33,6 @@ You will need the following things:
   * The testModel is where you can test an image to see if it comes back as rock or 
     sand. Just update the path to image under the load a test image method. 
 
-  *  myModel.h5 is the actual trained model after you run trainModel there is a save   
+  *  myModel.h5 is the actual trained model after you run trainModel there is a save 
      statement that saves it as a certain name. 
   
