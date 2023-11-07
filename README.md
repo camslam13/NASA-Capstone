@@ -19,7 +19,7 @@ You will need the following things:
 
   conda create --name <environment_name> python=<python_version>
 
-  * You can activate the env by typing "conda activate nameOfEnv.
+  * You can activate the env by typing "conda activate nameOfEnv".
 
   * Then you will want to select a python interpreter within vscode can do ctrl+shift+p.(if you created an env it should pop up there)
 
